@@ -517,7 +517,11 @@
       <hotspot id="Point01" url="{node1}" target="" description="" pan="-259.58" skinid="ht_node" title="" tilt="-14.01"/>
       <hotspot id="Point02" url="" target="" description="This is a 360 tour of Azov84 exhibition that took place in Wroclaw in June 2022.&#xa;&#xa;You can navigate through the exhibition hall using hotspot marks.&#xa;&#xa;If you get closer to the photos you can open a live photo caption by clicking the play sign.&#xa;&#xa;Now move to the center of the hall to have full access to exhibition navigation." pan="-162.77" skinid="ht_info" title="Information" tilt="-4.62"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound id="_background" startmutedmobile="0" level="0.450" nodechangekeep="0" pan="-1.000" field="90.000" loop="1" mode="0" pansize="10.000" ambientlevel="0.000" tilt="-1.000" tiltsize="10.000">
+        <source url="media/Azov.mp3"/>
+      </sound>
+    </media>
     <transition softedge="0" zoomafterinfov="90" zoomafteroutfov="20" blendcolor="0x000000" zoomin="0" blendtime="1" type="crossdissolve" zoomfov="20" zoomout="0" zoomoutpause="1" zoomspeed="2" enabled="1"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
     <control simulatemass="1" invertwheel="0" contextprojections="0" sensitivity="8" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="1" contextfullscreen="1" lockedwheel="0" hideabout="1" lockedkeyboard="0" lockedmouse="0" speedwheel="1"/>
